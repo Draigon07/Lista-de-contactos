@@ -15,12 +15,16 @@ const loadContact = (db, parentNode)=>{
 
 
 
+
+
+
 const createContact = (parentNode , contacto, db)=>{
     let divContact = document.createElement('div');
     let nameContact = document.createElement('h3');
     let numberContact = document.createElement('p');
     let contactAdress = document.createElement('p');
     let deleteIcon = document.createElement('span');
+    numberContact.classList.add('text_tarea');  nameContact.classList.add('text_tarea'); contactAdress.classList.add('text_tarea')
     
     
 

@@ -19,9 +19,12 @@ body{
 }
 
 .container{
+    display: flex;
     height: 100vh;
     width: 70vw;
     margin: 2rem auto;
+    flex-direction: column;
+    align-items: center;
 
     
 }
@@ -93,3 +96,36 @@ body{
     text-align: center;
 }
 
+
+@media screen and (max-width:768px){
+
+    .tarea{
+        width: max-content;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .text_tarea{
+        margin-right: 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .listado_tareas{
+        margin: 10px auto;
+        background-color: red;
+    }
+
+    .formulario_datos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text_tarea{
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    
+}
