@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Agenda de Contactos</h2>
+        <div class="formulario_datos">
+            <input type="text" class="name" placeholder="Nombre">
+            <input type="text" class="number" placeholder="Número">
+            <input type="text" class="adress" placeholder="Dirección">
+            <button class="btn_add">Agregar Contacto</button>
+
+            <div class="listado_tareas">
+                <div class="tarea">
+                    <h3>Nombre</h3>
+                    <p>Número</p>
+                    <p>Dirección</p>
+                    <span class="material-icons icono">
+                        delete_forever
+                        </span>
+                </div>
+            </div>
+            <h3 class="warning"></h3>
+        </div>
+    </div>
+    <script src="funciones.js"></script>
+    <script src="code.js"></script>
+    
+</body>
+</html>
