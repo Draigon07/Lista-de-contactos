@@ -114,7 +114,6 @@ body{
 @media screen and (max-width:520px) {
     .listado_tareas{
         margin: 10px auto;
-        background-color: red;
     }
 
     .formulario_datos{
@@ -125,7 +124,7 @@ body{
 
     .text_tarea{
         margin-right: 20px;
-        font-size: 15px;
+        font-size: 17px;
     }
     
 }
